@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 130%;
+	font-family: helvetica;
+	color: black;
+}
+h1 {
+  margin-bottom: 15px;
+  font-family: helvetica;
+  font-size:3em;
+}
+
+p {
+  /* border: 1px solid gray; */
+  font-family: helvetica;
+  font-size: 1em;
+}
+
+.title{
+  font-size: 1.75em;
+}
+
+.content {
+  position: relative;
+  background-color: Gray;
+  padding: 8px;
+  /*border: 1px solid black;*/
+  margin:20px;
+}
+
+
+.navbar-default{
+	background-color: yellow;
+	margin: 0px -13px 0px -13px;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 0;
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+/*#bs-example-navbar-collapse-1{
+	background-color: white;
+}*/
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+	.content {
+	  padding: 16px;
+	  /*border: 1px solid black;*/
+	  margin:20px 40px 20px 40px;
+	}
+	.navbar-default .navbar-collapse{
+		background-color: pink;
+		border-width: 2px;
+		border-color: black;
+		border-radius: 0;
+	}
+
+}
+@media (min-width: 768px){
+	#company {
+	    margin-left: 30px;
+	}
+}
